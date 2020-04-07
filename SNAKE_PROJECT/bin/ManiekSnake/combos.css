@@ -1,0 +1,262 @@
+.root{
+	
+	-fx-background-color: black;
+	-fx-background-radius:15;
+	-fx-border-color:lightgreen;
+	-fx-border-radius:15;
+	-fx-font-family: "Flynn";
+	
+	-fx-font-size: 20.0pt;
+	-fx-text-fill: lightgreen;
+}
+
+.grid {
+	-fx-border-width: 1.0pt;
+	-fx-border-color: lightgreen;
+	-fx-background-color: black;
+    -fx-background-radius: 5.0;
+    -fx-border-style: dashed;
+    -fx-font-family: "Flynn";
+    -fx-height: 60px;
+  
+}
+
+#gridW {
+	-fx-border-width: 1.0pt;
+	-fx-border-color: red;
+	-fx-background-color: black;
+    -fx-background-radius: 5.0;
+    -fx-border-style: dashed;
+    -fx-font-family: "Flynn";
+  
+}
+.check-box .box {
+
+-fx-background-color: black;
+-fx-border-color:lightgreen;
+-fx-border-radius:5px; 
+-fx-font-size: 15pt;
+
+
+
+}
+.check-box {
+    -fx-font-size: 28;
+    -fx-font-weight: bold;
+    -fx-font-family: "Flynn";
+    -fx-text-fill: lightgreen;
+}
+
+.check-box:selected{
+
+-fx-background-color: black;
+
+}
+.check-box:selected .mark {
+    -fx-background-color: red;
+    
+}
+.check-box:selected  {
+
+-fx-background-color: transparent;
+}
+
+.tooltip {
+    
+    -fx-font-family:"Flynn";
+    -fx-text-fill: lightgreen;
+    -fx-font-size: 15pt;
+   
+	-fx-border-color:lightgreen;
+	-fx-border-radius:15;
+}
+
+#bold-label{
+	-fx-font-weigth: bold;
+	-fx-font-size: 40.0pt;
+}
+
+.label{
+	-fx-text-fill: lightgreen;
+	-fx-font-size: 21.0pt;
+
+}
+
+#eska
+{
+	-fx-font-family: "Arial";
+	-fx-font-size:15.0;
+	
+}
+#info
+{
+	-fx-font-family: "Flynn";
+	-fx-font-size:25.0;
+	
+}
+
+.combo-box .scroll-bar
+{
+	-fx-background-color: black;
+}
+
+.combo-box-base 
+{
+-fx-border-style: solid;
+ 	-fx-border-color: black;
+  -fx-background-color: linear-gradient(lightgreen 0%, black 25%, black 75%, lightgreen 100%);
+  -fx-text-fill: red;
+ -fx-border-radius:10;
+  -fx-font-size:18.0pt;
+  -fx-font-family: "Flynn";
+  -fx-border-radius: 10;
+  -fx-background-radius: 10;
+  
+ 
+ 	
+ }
+ 
+  .combo-box .list-view{
+  	 -fx-background-color: transparent;
+ 	 }
+ 
+ .button{
+-fx-background-color: black;
+	-fx-border-color:lightgreen;
+	-fx-opacity: 0.7;
+	-fx-border-radius:10;
+	-fx-text-fill: lightgreen;
+	-fx-background-radius: 10.0; 
+}
+.button:hover
+{
+	-fx-border-color:lightgreen;
+	-fx-opacity: 1;
+	-fx-background-color: linear-gradient(lightgreen 0%, black 25%, black 75%, lightgreen 100%);
+	}
+
+#title
+{
+	-fx-font-family: "Flynn";
+	-fx-font-size: 60.0pt;
+}
+
+#title2
+{
+	-fx-font-family: "Tr2n";
+	-fx-font-size: 32.0pt;
+}
+
+#plName 
+{
+	-fx-border-radius:10;
+	-fx-background-color: black;
+	-fx-text-fill: lightgreen;
+	-fx-border-color: lightgreen;
+	-fx-font-weigth: bold;
+	-fx-font-family: "Flynn";
+	-fx-font-size: 20.0pt;
+}
+
+#lista
+{
+	-fx-background-color: transparent;
+	-fx-font-weigth: bold;
+	-fx-font-family: "Arial";
+	-fx-font-size: 12.0pt;
+}
+
+.button-no
+{
+	-fx-text-family: "Flynn";
+	-fx-text-fill: black;
+	
+}
+
+#bold
+{
+-fx-font-weigth: bold;
+}
+
+ .list-cell:filled {
+ 	-fx-border-color: lightgreen;
+ 	-fx-border-radius:10;
+ 	-fx-border-style: dashed;
+  -fx-background-color: black ;
+  -fx-text-fill: lightgreen;
+}
+
+
+
+.combo-box .list-cell{
+-fx-border-style: solid;
+ 	-fx-border-color: black;
+  -fx-background-color: linear-gradient(lightgreen 0%, black 25%, black 75%, lightgreen 100%);
+  -fx-text-fill: lightgreen;
+   -fx-border-radius:10;
+ -fx-font-size:18.0pt;
+  -fx-font-family: "Flynn";
+  -fx-border-radius: 10;
+  -fx-background-radius: 10;
+ }
+ 	
+
+.list-cell{
+	-fx-cell-hover-color: #0093ff;
+    -fx-background-color: black;
+}
+.combo-box .list-cell:hover {
+    -fx-background-color: linear-gradient(lightgreen 0%, black 25%, black 75%, lightgreen 100%);
+    -fx-background-radius:10;
+    -fx-text-fill: lightgreen;
+    -fx-border-radius:10;
+}
+
+
+.combo-box .list-cell:filled:hover {
+    -fx-background-color: linear-gradient(black 0%, lightgreen 25%, lightgreen 75%, black 100%);
+    -fx-text-fill: black;
+    -fx-border-radius:10;
+}
+
+#mp3Field
+{
+	 -fx-font-family: "Flynn";
+	-fx-highlight-fill: transparent;
+-fx-highlight-text-fill: yellowgreen;
+-fx-background-color: black;
+	-fx-border-style: solid;
+	-fx-border-color: lightgreen;
+	-fx-border-radius: 10px;
+	-fx-text-fill: yellowgreen;
+	-fx-font-size: 20.0pt;
+	
+}
+
+#mp3Accept
+{
+	 -fx-font-family: "Flynn";
+	-fx-highlight-fill: transparent;
+-fx-highlight-text-fill: yellow;
+-fx-background-color: black;
+	-fx-border-style: solid;
+	-fx-border-color: lightgreen;
+	-fx-border-radius: 10px;
+	-fx-text-fill: yellow;
+	-fx-font-size: 20.0pt;
+	
+}
+#mp3Wrong
+{
+	 -fx-font-family: "Flynn";
+	-fx-highlight-fill: transparent;
+-fx-highlight-text-fill: red;
+-fx-background-color: black;
+	-fx-border-style: solid;
+	-fx-border-color: lightgreen;
+	-fx-border-radius: 10px;
+	-fx-text-fill: red;
+	-fx-font-size: 20.0pt;
+	
+}
+
